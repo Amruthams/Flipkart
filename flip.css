@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 56px;
+  background-color: #2874f0;
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+
+.logo img {
+  width: 80px;
+  margin-left: 190px;
+  margin-top: 10px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right {
+  padding-right: 10rem;
+}
+
+
+.navbar-search {
+  display: flex;
+  /* width: 500px; */
+}
+
+.navbar-search input[type=text] {
+  width: 500px;
+  height: 33px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px 0 0 2px;
+}
+
+
+
+.navbar-search button[type=submit] {
+  width: 40px;
+  height: 33px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+
+}
+
+.fa-search {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+
+
+.navbar-right .button {
+  background-color: white;
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #2874f0;
+    text-decoration: none;
+
+    border-radius: 2px;
+    margin: 0px 15px;
+
+}
+
+
+.navbar-menu li {
+  margin-left: 50px;
+  margin-right: 25px;
+  margin-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.navbar-menu i {
+  margin-top: 12px;
+  margin-left: 20px;
+
+}
+
+.navbar-menu span {
+  margin-top: 10px;
+  margin-left: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================= */
+
+.samsung {
+  background-color: whitesmoke;
+}
+
+.samsung h3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: rgb(62, 60, 60);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.samsung p {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(126, 124, 124);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.latest {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid rgb(221, 217, 217);
+  background-color: white;
+  display: flex;
+}
+
+/* .latest input{
+
+  margin-left: 80rem;
+  margin-top: 10px;
+  background-color: #2874f0;
+  width: 0px;
+  height: 20px;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+} */
+/* .latest input{
+    margin-left: 1300px;
+    width: 50px;
+    color: white;
+    background-color: #2874f0;
+   
+  } */
+
+.mobile {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid rgb(221, 217, 217);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: stretc;
+}
+
+.mobile .images {
+  width: 15%;
+  height: 300px;
+  padding: 10px;
+  float: left;
+  margin: 15px;
+}
+
+.images img {
+  width: 90px;
+  margin-left: 40px;
+
+}
+
+.images h5 {
+  color: rgb(78, 77, 77);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.images span {
+  color: rgb(78, 77, 77);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.images .s1 {
+  text-decoration: line-through;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.images .s2 {
+  color: green;
+  font-size: 10px;
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================== */
+
+.footer {
+  background-color: #181616;
+  padding: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-container {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.about {
+  color: rgb(105, 101, 101);
+  margin-bottom: 10px;
+}
+
+.contact {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.address {
+  margin-top: 0px;
+}
+
+.mail,
+.mail {
+  margin-bottom: 10px;
+}
+
+.address1 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+}
+
+._2NKhZn p {
+  margin: 0;
+}
+
+/* 
+._2uz0vJ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hDTmm5 {
+    margin-right: 20px;
+}
+
+.z3ht-w {
+    margin-top: 10px;
+    font-size: 12px;
+    display: block;
+}
+
+.z3ht-w span {
+    font-weight: bold;
+}
+
+.z3ht-w img {
+    vertical-align: middle;
+    margin-left: 10px;
+} */
+
+
+@media  (max-width: 600px) {
+
+
+  /* .logo{margin-left:200px; margin-top: -50px;}
+  /* nav{height: 140px;width:1000px;} */
+     /* .nav_logo{margin-top: 80px; padding-top: 60px; height: 200px;}  */
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar img {
+    margin-left: 20px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-search input[type=text] {
+    width: 300px;
+  }
+
+  .samsung h3 {
+    padding-top: 1rem;
+  }
+
+  .latest h3 {
+    margin-top: 1px;
+    margin-left: 2px;
+    font-size: 15px;
+  }
+
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobile .images {
+    width: 80%;
+  }
+
+  .footer{
+    display: none;
+  }
+
+  /* .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .about-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .about{
+    font-size: 8px;
+  }
+
+  .contact{
+    font-size: 10px;
+  }
+
+  .address1{
+    font-size: 10px;
+  } */
+
+}
+
+
+
+/* @media (max-width: 414px) {
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar img {
+    margin-left: 0px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-left{
+    width: 100%;
+  }
+
+  .navbar-search{
+    display: flex;
+    width: 270px;
+  }
+
+  .navbar-search input[type=text] {
+    width: 250px;
+  }
+
+  .samsung h3 {
+    padding-top: 1rem;
+  }
+
+  .latest h3 {
+    margin-top: 1px;
+    margin-left: 2px;
+    font-size: 15px;
+  }
+
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobile .images {
+    width: 80%;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .about-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .about{
+    font-size: 8px;
+  }
+
+  .contact{
+    font-size: 10px;
+  }
+
+  .address1{
+    font-size: 10px;
+  }
+
+
+} */
+
+
+
+ /* @media (max-width:900px) {
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar img {
+    margin-left: 50px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-search input[type=text] {
+    width: 400px;
+  }
+
+  .samsung h3 {
+    padding-top: 1rem;
+  }
+
+  .latest h3 {
+    margin-top: 1px;
+    margin-left: 2px;
+    font-size: 15px;
+  }
+
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .mobile .images {
+    width: 100%;
+    margin-left: 100px;
+    
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .about-container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about{
+    font-size: 8px;
+  }
+
+  .contact{
+    font-size: 10px;
+  }
+
+  .address1{
+    font-size: 10px;
+  } 
+
+} */
